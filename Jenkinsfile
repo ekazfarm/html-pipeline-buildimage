@@ -9,7 +9,7 @@ node {
 
     stage('Build image') {
   
-       app = docker.build("ekawafs/python-cicd")
+       app = docker.build("ekawafs/html-cicd")
     }
 
     stage('Test image') {
